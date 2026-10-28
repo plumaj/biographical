@@ -1,20 +1,20 @@
+---
+license: cc0-1.0
+language:
+- en
+- de
+---
 # Biographical Relation Extraction Dataset
 
 Welcome to the repository of datasets tailored for biographical relation extraction, crafted utilizing Guided Distant Supervision (GDS). Explore datasets available in both English and German, which facilitate extensive research in relation extraction from biographical data. Below you can find an overview of the datasets currently available, as well as the relations that are in each set. Please note there are different sets for each language, which denote how they were compiled. In short, normal followed GDS, coref added coreference resolution and skip skipped certain parts of the text. For a more extensive explanation how this worked, please refer to [[1]](#1).
 
-## Available Datasets
+**The data has moved to (huggingface)[https://huggingface.co/datasets/plumaj/biographical]
 
-### English Dataset
+## English Dataset
 
-#### Overview
+### Overview
 
-Detailed insights into the English dataset can be found in [[1]](#1).
-
-#### Download
-
-**[Download English Dataset Here](https://drive.google.com/drive/folders/1Kq7BR0avcID_z6DQ_CabGLfaKsxmb4gc?usp=sharing)**
-
-#### Data Summary
+The detailed description of how the _English_ part of the dataset was created can be found in [[1]](#1). (Please cite this paper if you use the English part)
 
 | Relation   | Normal Set  | Coref Set   | Skip Set    |
 |------------|-------------|-------------|-------------|
@@ -30,17 +30,11 @@ Detailed insights into the English dataset can be found in [[1]](#1).
 | Other      | 173,969     | 175,916     | 103,248     |
 | **Total**  | **346,257** | **350,845** | **205,001** |
 
-### German Dataset
+## German Dataset
 
-#### Overview
+### Overview
 
-A paper discussing the German dataset is forthcoming.
-
-#### Download
-
-**[Download German Dataset Here](https://drive.google.com/drive/folders/1OQkur0_WKGb6NDjFkuT4pNCPK8RbAZxh?usp=sharing)**
-
-#### Data Summary
+The detailed description of how the _German_ part of the dataset was created can be found in [[2]](#2). (Please cite this paper if you use the German part)
 
 | Relation   | Normal Set | Skip Set   |
 |------------|------------|------------|
@@ -56,32 +50,15 @@ A paper discussing the German dataset is forthcoming.
 | Sibling    | 917        | 890        |
 | **Total**  | **83,183** | **41,380** |
 
-## Additional Information
-### How to Use The Datasets
-
-<details>
-    <summary>Click to expand</summary>
-
-    Provide information on how researchers and developers can utilize and reference the datasets in their work.
-
-</details>
-
-### Licensing and Citation
-
-<details>
-    <summary>Click to expand</summary>
-
-    Include licensing details and citation instructions here.
-
-</details>
-
-### Contribution and Feedback
-
-Feel free to contribute or provide feedback to enhance the datasets. Guidelines on how to contribute and provide feedback can be detailed in this section.
 
 ## References
 
 <a id="1">[1]</a> 
 Alistair Plum, Tharindu Ranasinghe, Spencer Jones, Constantin Orasan, Ruslan Mitkov (2022). 
-Biographical: A Semi-Supervised Relation Extraction Dataset.
+Biographical Semi-Supervised Relation Extraction Dataset.
 Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval.
+</br>
+<a id="2">[2]</a>
+Alistair Plum, Tharindu Ranasinghe, Christoph Purschke (2024). 
+Guided Distant Supervision for Multilingual Relation Extraction Data: Adapting to a New Language.
+Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024).
